@@ -1,0 +1,258 @@
+BODY{
+font-family:tahoma;
+font-size:11px;
+background:#2E4356;
+color:#FFFFFF;
+margin:5px;
+}
+
+
+TABLE, TR, TD{
+	font: 100 11px Tahoma;
+}
+
+HTML {
+
+SCROLLBAR-ARROW-COLOR: #eef0f2;
+SCROLLBAR-TRACK-COLOR: #2E4356;
+SCROLLBAR-BASE-COLOR: #143D55;
+}
+
+FORM{
+margin:0px;
+}
+
+#login_form{
+background:url(../images/login_background.jpg);
+width:500px;
+height:270px;
+margin-top:150px;
+text-align:left;
+}
+
+#login_form .logo{
+padding-left:40px;
+padding-top:40px;
+text-align:left;
+width:150px;
+float:left;
+}
+
+#login_form .text{
+padding-left:40px;
+padding-top:10px;
+text-align:left;
+width:150px;
+float:left;
+}
+
+TD#login_footer_text A{
+font-family:tahoma;
+font-size:11px;
+text-decoration:none;
+color:#636363;
+}
+
+TD#login_footer_text{
+font-family:tahoma;
+font-size:11px;
+text-decoration:none;
+color:#636363;
+}
+
+TD#login_footer_text A{
+font-family:tahoma;
+font-size:11px;
+text-decoration:none;
+color:#636363;
+}
+
+TD#login_footer_text A:hover{
+font-family:tahoma;
+font-size:11px;
+color:#636363;
+text-decoration:underline;
+}
+
+.login_text{
+font-family:"Trebuchet MS";
+font-size:19px;
+color:#333333;
+}
+
+.login_text_1{
+font-family:"Trebuchet MS";
+font-size:11px;
+color:#333333;
+}
+
+.login_form{
+border:1px solid #C4DDE6;
+background-color:#F6FCFE;
+font-family:tahoma;
+font-size:11px;
+height:18px;
+padding-left:3px;
+}
+
+.login_button{
+border:1px solid #FBD2A8;
+background-color:#FDF3E9;
+font-family:"Trebuchet MS";
+font-size:11px;
+height:18px;
+color:#EE7600;
+}
+
+#input_form {
+	BORDER-RIGHT: #c9c9c9 1px solid; PADDING-RIGHT: 0.1em; BORDER-TOP: #c9c9c9 1px solid; PADDING-LEFT: 0.1em; FONT-WEIGHT: normal; FONT-SIZE: 1.5em; BACKGROUND: #fff repeat-x left top; PADDING-BOTTOM: 0.1em; BORDER-LEFT: #c9c9c9 1px solid; PADDING-TOP: 0.1em; BORDER-BOTTOM: #c9c9c9 1px solid; FONT-FAMILY: Georgia, Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+
+
+.button{
+background:#334C62;
+font-family:tahoma;
+font-size:11px;
+color:#FFFFFF;
+}
+
+TEXTAREA,
+SELECT,
+RADIO,
+BUTTON,
+INPUT{
+font-family:tahoma;
+font-size:11px;
+border:1px solid #7FA3B3;
+background:url(input_back.gif) repeat-x #FFFFFF;
+margin:1px;
+padding-left:3px;
+}
+
+A{
+color:#1F1F1F;
+text-decoration:none;
+}
+
+A:hover{
+text-decoration:underline;
+}
+
+.row5px{
+padding:5px;
+}
+
+.row4px{
+padding:4px;
+}
+
+.button_back{
+background:#435D73;
+}
+
+
+.header{
+background:url(header_back.jpg);
+background-repeat:repeat-x;
+height:60px;
+}
+
+#header_login{
+float:right;
+padding-top:8px;
+padding-right:15px;
+font-family:tahoma;
+color:#FFFFFF;
+font-size:11px;
+text-align:right;
+line-height:130%;
+}
+
+.menu_title{
+font-weight:bold;
+color:#A0B842;
+}
+
+.padleft5px{
+padding-left:5px;
+}
+
+.padbot5px{
+margin-bottom:5px;
+}
+
+#page_nav{
+margin-top:5px;
+border:1px solid #6989A5;
+background:#BCCED9;
+width:250px;
+color:#0F2E40;
+height:12px;
+padding:3px;
+}
+a.bluelink{ color:#173D63; }
+a.bluelink:hover{ color:#173D63; }
+
+a.orangelink{ color: #FF7C07; }
+a.orangelink:hover{ color: #FF7C07; }
+
+a.yellowlink{ color: #FFCC00; }
+a.yellowlink:hover{ color: #FFCC00; }
+
+.active-link{color:#FFFFFF; background:#173D63; padding-left:2px; padding-right:2px;}
+
+.listHeader{
+height:20px;
+background:#0F2E40;
+color:#FFFFFF;
+font-weight:bold;
+}
+
+.listTitle{
+height:18px;
+background:#143D55;
+color:#C1D5E6;
+font-weight:bold;
+}
+
+a.blacklink{text-decoration:none; color:#1F1F1F;}
+a.blacklink:hover{text-decoration:underline;}
+
+.listEven {
+background: #BCCED9;
+color:#1F1F1F;
+height:20px;
+}
+.listOdd {
+background: #DEE8EE;
+color:#1F1F1F;
+height:20px;
+}
+
+.table_box{
+border:0px solid #6989A5;
+background:#6989A5;
+}
+
+.table_inner{
+padding:7px;
+}
+
+#dolphincontainer{position:relative;border-bottom: 1px solid #6989A5; color:#E0E0E0;background:#143D55;
+width:100%;font-family:Tahoma;}
+#dolphinnav{position:relative;height:33px;font-size:11px;text-transform:uppercase;font-weight:bold;background:#143D55 url(dolphin_bg.gif) repeat-x bottom left;padding:0 0 0 20px;}
+#dolphinnav ul{margin:0;padding:0;list-style-type:none;width:auto;float:left;}
+#dolphinnav ul li{display:block;float:left;margin:0 1px;}
+#dolphinnav ul li a{display:block;float:left;color:#EAF3F8;text-decoration:none;padding:0 0 0 20px;height:33px;}
+#dolphinnav ul li a span{padding:12px 20px 0 0;height:21px;float:left;}
+#dolphinnav ul li a:hover{color:#fff;background:transparent url(dolphin_bg-OVER.gif) repeat-x bottom left;}
+#dolphinnav ul li a:hover span{display:block;width:auto;cursor:pointer;}
+#dolphinnav ul li a.current,#dolphinnav ul li a.current:hover{color:#fff;background:#1D6893 url(dolphin_left-ON.gif) no-repeat top left;line-height:275%;}
+#dolphinnav ul li a.current span{display:block;padding:0 20px 0 0;width:auto;background:#1D6893 url(dolphin_right-ON.gif) no-repeat top right;height:33px;}
+
+#dolphin_inner{color: white; padding: 5px; height:14px; border:0px; }
+
+#dolphin_inner a:link, #dolphin_inner a:visited, #dolphin_inner a:active{color: white; text-decoration:none;}
+#dolphin_inner a:hover{color: yellow}
+
+.innercontent{display: none; font-family:tahoma; font-size:11px;}

@@ -1,0 +1,969 @@
+/* CSS Document */
+BODY{
+	margin:0px;
+	font: 100 11px Tahoma;
+	color:#000000;
+	background:#333333;
+	margin-left:1px;
+}
+
+SELECT, INPUT, TEXTAREA{
+	font:100 11px Verdana;
+}
+
+IMG{
+	border:0px;
+}
+
+A{
+	text-decoration:none;
+	color:#333333;
+}
+
+A:hover{
+	text-decoration:underline;
+}
+
+FORM{
+	margin:0px;
+}
+
+/* Ana Tablo */
+
+.body{
+	width:770px;
+	background:#FFFFFF;
+}
+
+.leftright{
+	border-left:6px solid #666666;
+	border-right:6px solid #666666;
+	padding-left:1px;
+	padding-right:1px;
+}
+
+/* Yazar Üst */
+
+#header_author{
+	background:url(../images/header_author_back.png) repeat-x;
+	height:68px;
+	margin-top:1px;
+}
+
+#header_author .author_box{
+	width:146px;
+	margin-left:5px;
+	height:52px;
+	float:left;
+	margin-top:7px;
+	overflow:hidden;
+}
+
+#header_author .author_box .image{
+	border:3px solid #FFFFFF;
+	float:left;
+	margin-right:3px;
+}
+
+#header_author .author_box .text{
+	height:52px;
+	width:94px;
+	overflow:hidden;
+	line-height:120%;
+	color:#FFFFFF;
+}
+
+#header_author .author_box .text a{
+	color:#FFFFFF;
+}
+
+.authorName{
+	color:#FFD200;
+}
+
+/* Yazar Sað */
+
+.right_author_box{
+	width:150px;
+	height:50px;
+	margin-bottom:5px;
+	overflow:hidden;
+	background:#EFEFEF;
+	border-bottom:1px dotted #d6d5d5;
+	padding-bottom:5px;
+	background:url(../images/author_box.png) repeat-x;
+	padding-top:5px;
+}
+
+.right_author_box .image{
+	border:1px solid #d6d5d5;
+	float:left;
+	margin-right:3px;
+	margin-left:3px;
+	background:#FFFFFF;
+	padding:1px;
+}
+
+.right_author_box .text{
+	height:52px;
+	width:91px;
+	overflow:hidden;
+	line-height:120%;
+	color:#333;
+}
+
+.right_author_box .text a{
+	color:#333;
+}
+
+.right_author_box .authorName{
+	color:#CC0000;
+}
+/* Popup */
+
+.popupTitle{
+	font: 700 25px Georgia, "Times New Roman", Times, serif;
+	color:#003366;
+	padding-left:10px;
+	padding-top:5px;
+	height:40px;
+	background:url(../images/detail_back.gif) repeat-x;
+}
+
+.divAlert{
+	padding:7px;
+	background: #EFEFEF;
+	border:1px dashed #666666;
+	font: 700 13px Tahoma;
+	line-height:140%;
+}
+
+/* Üst */
+#header{
+	width:770px;
+	background:url(../images/logo.jpg) no-repeat;
+	height:85px;
+	position:relative;
+}
+
+#header .logo{
+	height:85px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#header .banner{
+	position:absolute;
+	top:11px;
+	left:268px;
+	width:468px;
+	height:60px;
+	overflow:hidden;
+}
+
+.header_menu{
+	height:16px;
+	padding-bottom:4px;
+	padding-top:4px;
+	border-bottom:1px solid #FFFFFF;
+	border-top:1px solid #FFFFFF;
+	background:#333;
+	color:#FFFFFF;
+	vertical-align:middle;
+}
+
+.header_menu .item{
+	padding-right:10px;
+	padding-left:10px;
+	border-right:1px solid #888888;
+	float:left;
+	height:16px;
+	overflow:hidden;
+	font: 100 11px/16px Tahoma;
+}
+
+.header_menu .item a{
+	color:#FFFFFF;
+}
+
+.header_menu .date{
+	padding-right:10px;
+	float:right;
+	height:16px;
+	overflow:hidden;
+	font: 100 11px/16px Tahoma;
+}
+
+/* Anasayfa Manþet */
+
+#headline{
+	width:490px;
+	height:200px;
+	padding-bottom:3px;
+	margin-bottom:3px;
+}
+
+#headline .headline_title{
+	height:28px;
+	font: 700 22px Tahoma, "Trebuchet MS";
+	color:#CC0000;
+	overflow:hidden;
+	width:490px;
+	margin-bottom:0px;
+}
+
+#headline .headline_title a{
+	color:#CC0000;
+}
+
+#headline .spot{
+	color:#333;
+	font: 100 11px "trebuchet MS";
+	height:40px;
+	overflow:hidden;
+	line-height:160%;
+	width:490px;
+}
+
+#headline .spot a{
+	color:#333333;
+}
+
+#headline .headline_image{
+	float:left;
+	width:250px;
+	height:180px;
+	margin-right:5px;
+	background:#FFFFFF;
+}
+
+#headline .textbox{
+	width:232px;
+	height:180px;
+	overflow:hidden;
+}
+
+
+
+
+#headline .textbox .title{
+	font: 700 11px/18px Tahoma, "Trebuchet MS";
+	color:#000000;
+	background:url(../images/orange_dot.png) no-repeat 0px 8px;
+	padding-left:12px;
+	overflow:hidden;
+	height:18px;
+}
+
+#headline .textbox .title a{
+	color:#000000;
+}
+
+#headline .textbox .flash{
+	background:url(../images/flash.gif) no-repeat 0px 3px;
+	padding-left:32px;
+}
+
+#headline .textbox .private{
+	background:url(../images/private.gif) no-repeat 0px 3px;
+	padding-left:32px;
+}
+
+#headline .textbox .video{
+	background:url(../images/video.gif) no-repeat 0px 2px;
+	padding-left:20px;
+}
+
+#headline .textbox .date{
+	color:#888;
+	font: 100 11px "trebuchet MS";
+	height:14px;
+	overflow:hidden;
+	margin-bottom:4px;
+	margin-top:4px;
+}
+
+/* orta kategorili haber */
+
+.middle_cat_groups{
+	width:236px;
+	height:220px;
+	background:url(../images/middle_cat_group_back.png) no-repeat;
+	overflow:hidden;
+	margin-right:8px;
+	margin-left:2px;
+	float:left;
+	position:relative;
+}
+
+.middle_cat_groups2{
+	margin-right:0px;
+}
+
+.middle_cat_groups .cat{
+	font: 700 11px/17px Tahoma;
+	color:#000000;
+	margin-left:20px;
+}
+
+.middle_cat_groups .image{
+	position:absolute;
+	top:31px;
+	left:13px;
+	width:98px;
+	height:65px;
+	overflow:hidden;
+}
+
+.middle_cat_groups .spot a{
+	position:absolute;
+	top:30px;
+	left:122px;
+	width:109px;
+	height:64px;
+	overflow:hidden;
+	color:#FFFFFF;
+	line-height:140%;
+}
+
+.middle_cat_groups .titles{
+	position:absolute;
+	top:113px;
+}
+
+.middle_cat_groups .titles .title{
+	font: 700 11px/18px Tahoma;
+	height:18px;
+	overflow:hidden;
+	padding-left:20px;
+}
+/* Kayan Yazý */
+
+.slide_news_box{
+	margin: 5px;
+	width:210px;
+	float:left;
+	height:74px;
+	overflow:hidden;
+}
+
+.slide_news_box a{
+	color:#333333;
+}
+
+.slide_news_box .title{
+	width:206px;
+	font: 700 11px/20px Verdana, Arial, Helvetica, sans-serif;
+	color:#CC0000;
+	height:20px;
+	overflow:hidden;
+}
+
+.slide_news_box .image{
+	width:70px;
+	height:52px;
+	float:left;
+	margin-right:3px;
+}
+
+.slide_news_box .spot{
+	height:50px;
+	width:130px;
+	overflow:hidden;
+	font-family:"trebuchet MS";
+}
+
+/* Orta Haber Kutusu */
+
+.news_box{
+	margin-right: 6px;
+	margin-bottom:8px;
+	margin-left:2px;
+	width:225px;
+	float:left;
+	height:87px;
+	overflow:hidden;
+	border:1px solid #d8d8d8;
+	padding:5px;
+}
+
+.news_box a{
+	color:#333333;
+}
+
+.news_box2{
+	margin-right: 0px;
+}
+
+.news_box .title{
+	width:225px;
+	font: 700 11px Verdana, Arial, Helvetica, sans-serif;
+	color:#CC0000;
+	height:15px;
+	overflow:hidden;
+	margin-bottom:2px;
+}
+
+.news_box .image{
+	width:90px;
+	height:70px;
+	float:left;
+	margin-right:3px;
+}
+
+.news_box .spot{
+	height:70px;
+	width:129px;
+	overflow:hidden;
+	font-family:"trebuchet MS";
+	line-height:18px;
+	color:#333333;
+}
+/* Sütunlar */
+
+.centerColumn{
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.top5px{
+	padding-top:3px;
+}
+
+/* Slide */
+
+#main_slide_news{
+	height:92px;
+}
+
+#main_slide_news .left{
+	background:url(../images/slide_news_left.png) no-repeat;
+	width:16px;
+	float:left;
+	height:92px;
+}
+
+#main_slide_news .right{
+	background:url(../images/slide_news_right.png) no-repeat;
+	width:16px;
+	float:right;
+	height:92px;
+}
+
+#main_slide_news .center{
+	height:90px;
+	border:1px solid #d8d8d8;
+}
+
+/* Alt */
+
+.footer{
+	padding:5px;
+	color:#555555;
+	line-height:150%;
+	text-align:center;
+	background:#efefef;
+}
+
+.footer a{
+	color:#555555;
+	font-weight:bold;
+}
+
+/* Menüler */
+#left_menu {
+	width: 100%;
+	text-align: left;
+	background: #333;
+}
+#left_menu ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	height: 22px; 
+	overflow: hidden;
+}
+#left_menu a {
+	font: 700 11px/20px Tahoma;
+	display: block;
+	border-width: 1px;
+	margin-left: 0px;
+	padding: 2px 12px 0px 12px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#left_menu .parent{
+	background: url(../images/left_menu_back_2.png) no-repeat;
+}
+#left_menu .parent a {
+	font: 700 11px/21px Tahoma;
+	padding-top: 0px;
+}
+#left_menu .parent1{
+	background: url(../images/left_menu_back_1.png) no-repeat;
+}
+#left_menu .parent1 a {
+	font: 700 11px/21px Tahoma;
+	padding-top: 0px;
+}
+#left_menu .parent a:hover, #left_menu .parent1 a:hover{
+	color: #FFFFFF;
+	background: #270101;
+}
+
+/* Ara Çizgiler */
+
+.center_line{
+	background:url(../images/line5x5.gif) repeat-x;
+	height:5px;
+	margin-bottom:5px;
+	margin-top:5px;
+}
+
+/* Çok okunan haberler */
+
+#mostly_readed{
+
+}
+
+#mostly_readed .header{
+	font: 700 11px/22px Tahoma;
+	height:22px;
+	background:url(../images/menu_block_back.png) repeat-x #333333;
+	color:#FFFFFF;
+	padding-left:5px;
+}
+
+#mostly_readed .title{
+	padding:5px;
+	background:#efefef;
+	line-height:130%;
+}
+
+#mostly_readed .title A{
+	color:#000000;
+}
+
+#mostly_readed .title2{
+	background:#ffffff;
+}
+
+#mostly_readed .line{
+	background:url(../images/line_4x1.gif) repeat-x;
+	height:1px;
+}
+
+/* Son Yorumlanan haberler */
+
+#last_comments{
+
+}
+
+#last_comments .header{
+	font: 700 11px/22px Tahoma;
+	height:22px;
+	background:url(../images/menu_block_back.png) repeat-x #333333;
+	color:#FFFFFF;
+	padding-left:5px;
+}
+
+#last_comments .title{
+	padding:5px;
+	background:#efefef;
+	line-height:130%;
+}
+
+#last_comments .title A{
+	color:#000000;
+}
+
+#last_comments .title2{
+	background:#ffffff;
+}
+
+#last_comments .line{
+	background:url(../images/line_4x1.gif) repeat-x;
+	height:1px;
+}
+
+/* Anket */
+
+#poll{
+
+}
+
+#poll .header{
+	font: 700 11px/22px Tahoma;
+	height:22px;
+	background:url(../images/menu_block_back.png) repeat-x #333333;
+	color:#FFFFFF;
+	padding-left:5px;
+}
+
+#poll .title{
+	font: 700 11px Tahoma;
+	color:#222222;
+	padding:5px;
+	line-height:130%;
+	background:#EFEFEF;
+}
+
+#poll .question{
+	font: 100 11px Tahoma;
+	color:#333333;
+	padding:2px;
+	line-height:130%;
+	padding-left:5px;
+	background:#EFEFEF;
+}
+
+#poll .line{
+	background:url(../images/line_4x1.gif) repeat-x;
+	height:1px;
+}
+
+#poll .buttons{
+	padding:5px;
+	background:#EFEFEF;
+}
+
+#poll .buttons A{
+	color:#333333;
+}
+
+/* Font araçlarý */
+#font_tools{
+	
+	background:url(../images/detail_back.gif) repeat-x;
+}
+
+#font_tools .tools{
+	height:25px;
+	padding:5px;
+	padding-top:8px;
+}
+
+#font_tools .goback{
+	color:#000000;
+}
+
+#font_tools .goback A{
+	color:#000000;
+}
+
+#font_tools .fonts{
+	float:right;
+}
+
+
+/* Makele Detay */
+
+#article_detail{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#313131;
+}
+
+#article_detail .author_image{
+	float:right;
+	margin-left:8px;
+	margin-bottom:8px;
+	border:1px solid #d8d8d8;
+	padding:5px;
+}
+
+#article_detail .newsImage{
+	float:left;
+	margin-right:5px;
+	margin-bottom:5px;
+	border:1px solid #d8d8d8;
+	padding:1px;
+}
+
+#article_detail .br1pxdot{
+	border-top: #d8d8d8 1px dotted;
+	margin-bottom:4px;
+	margin-top:4px;
+}
+
+#article_detail .date{
+	color:#666666;
+}
+
+#article_detail .title{
+	font-size:18px;
+	color:#cd0d15;
+	line-height:120%;
+	font-weight:bold;
+}
+
+#article_detail .about{
+	font:100 11px/20px Arial;
+	background:#d8d8d8;
+	margin-top:5px;
+	padding-left:5px;
+	height:20px;
+	width:145px;
+	overflow:hidden;
+}
+
+#article_detail .detail{
+	font-size:12px;
+	color:#313131;
+	line-height:160%;
+}
+
+#article_detail .read_count{
+	clear: both;
+	color: #797979;
+	font: normal 8pt/18px Verdana;
+	text-align: right;
+}
+
+/* yazý fontlarý */
+.content_12, .content_12 font, .content_12 p, .content_12 div, .content_12 td{
+	font-family: Arial;
+	font-size: 12px;
+	line-height: 160%;
+}
+.content_14, .content_14 font, .content_14 p, .content_14 div, .content_14 td{
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 160%;
+}
+.content_16, .content_16 font, .content_16 p, .content_16 div, .content_16 td{
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 160%;
+}
+.content_18, .content_18 font, .content_18 p, .content_18 div, .content_18 td{
+	font-family: Arial;
+	font-size: 18px;
+	line-height: 160%;
+}
+
+/* Yorumlar */
+
+#comments{
+	padding-bottom:7px;
+	padding-top:7px;
+	border-bottom:1px dotted #d8d8d8;
+
+}
+
+#comments .comment .title{
+	font: 700 11px/17px Tahoma;
+	color:#000099;
+}
+
+#comments .comment .name{
+	font: 700 11px/18px Tahoma;
+	color: #111111;
+}
+
+#comments .comment .comment{
+	font:12px Arial;
+	line-height:140%;
+	color:#444444;
+}
+
+#comments .comment .date{
+	font:11px/18px Verdana;
+	color:#999999;
+	font-style:italic;
+}
+
+#comments .line{
+	background:url(../images/line_4x1.gif) repeat-x;
+	height:1px;
+	margin-bottom:5px;
+	margin-top:5px;
+}
+
+#comments .allComments{
+	font:700 11px Verdana;
+	text-align:center;
+	color:#DD0000;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+
+#comments .allComments A{
+	color:#DD0000;
+}
+
+/* Yazý Araçlarý */
+#textTools{
+	text-align:center;
+	background:#EFEFEF;
+	height:20px;
+	padding-top:5px;
+	padding-left:100px;
+}
+
+#textTools .item{
+	float:left;
+	margin-left:10px;
+	margin-right:10px;
+	font: 700 11px Tahoma;
+	color:#333333;
+}
+
+#textTools .item A{
+	color:#333333;
+}
+
+/* Kategori Haberleri Baþlýk */
+
+.cat_name{
+	font: 700 13pt/23px Tahoma;
+	text-align: left;
+	color: #DD0000;
+	margin: 5px 0px 5px 0px;
+}
+
+/* Diðer Baþlýklar */
+
+#otherTitles{
+	background:url(../images/detail_back.gif) repeat-x;
+
+}
+
+#otherTitles .head{
+	padding-top:7px;
+	padding-left:5px;
+	padding-bottom:5px;
+	color:#DD0000;
+	font: 700 9pt Verdana;
+}
+
+#otherTitles .title{
+	font: 100 11px/18px Tahoma;
+	color:#333333;
+	padding-left:12px;
+	margin-left:5px;
+	border-bottom:1px dotted #d8d8d8;
+	padding-bottom:2px;
+	padding-top:2px;
+	background:url(../images/news_icon_red.gif) left center no-repeat;
+}
+
+#otherTitles .title A{
+	color:#333333;
+}
+
+/* Anket Sonucu */
+#poll_result{
+	margin-left:10px;
+	margin-right:10px;	
+}
+
+#poll_result .warning{
+	font: 100 8pt/20px Verdana;
+	color:#0000FF;
+}
+
+#poll_result .title{
+	font: 700 10pt/20px Verdana;
+	color:#000000;
+}
+
+#poll_result .date{
+	font: 100 8pt/18px Verdana;
+	color:#666666;
+	margin-bottom:5px;
+}
+
+#poll_result .questions{
+	font: 100 8pt/18px Verdana;
+	color:#333333;
+}
+
+#poll_result .percent{
+	margin-bottom:2px;
+	margin-top:1px;
+	color:#666666;
+	font: 100 11px Verdana;
+}
+
+#poll_result .percent .percent_pay{
+	background:#A5DCFF;
+	width:5px;
+	float:left;
+}
+
+/* Arama Sonucu */
+
+.search_error{
+	font: 100 11px/18px Verdana;
+	color:red;
+	background:url(../images/red_dot.gif) left center no-repeat;
+	padding-left:13px;
+	margin-left:10px;
+}
+
+.search_form{
+	font:100 11px Verdana;
+	margin-left:10px;
+	margin-top:5px;
+}
+
+
+#search_result{
+	font: 100 11px Verdana, Arial, Helvetica, sans-serif;
+}
+
+.search_news_box{
+	margin-bottom:5px;
+}
+
+.search_news_box .title{
+	font: 700 11px/18px Verdana;
+	color:#DD0000;
+}
+
+.search_news_box .title A{
+	color:#DD0000;
+}
+
+.search_news_box .spot{
+	color:#666666;
+	line-height:130%;
+}
+
+.search_news_box .spot A{
+	color:#666666;
+}
+
+/* Sayfalama */
+
+#paging{
+	padding:7px;
+	background:#EFEFEF;
+	border:1px dashed #C8C8C8;
+	color:#333333;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+#paging .onpage{
+	margin-bottom:5px;
+}
+
+#paging .pages{
+	color:#333333;
+}
+
+#paging .pages A{
+	color:#333333;
+}
+
+.page_link_active{
+	color:#DD0000;
+	font-weight:bold;
+}
+
+.page_link{
+	color:#000000;
+	font-weight:bold;
+}
